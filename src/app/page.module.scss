@@ -1,0 +1,69 @@
+$pageHeight:  90vh;
+$taskCardHeight: 15vh;
+
+.page {
+  display: flex;
+  height: $pageHeight;
+  align-items: center;
+  justify-items: center;
+  margin: 80px;
+  gap: 100px;
+}
+
+.cursorMove {
+  cursor: move;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+
+  div {
+    border: 1px solid gray;
+    background-color: lightgrey;
+    font-size: 24px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: $taskCardHeight;
+    user-select: none;
+  }
+}
+
+.floatDiv {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  z-index: 1000;
+  user-select: none;
+}
+
+.taskCard {
+  &__dragged{
+    border: 2px dashed gray !important;
+    background-color: white !important;
+    color: white !important;
+  }
+ }
+
+
+.columnBorder{
+  border: 2px solid gray;
+  height: $pageHeight;
+}
+
+
+
+
+
+
+
+
