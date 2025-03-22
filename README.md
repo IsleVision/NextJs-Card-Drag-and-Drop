@@ -3,7 +3,9 @@
 
 ### Start the project
 
-[demo.mp4](demo/demo.mp4)
+
+https://github.com/user-attachments/assets/4f525d47-bec3-4cdd-8826-079154a45193
+
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
